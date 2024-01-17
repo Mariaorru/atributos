@@ -1,0 +1,23 @@
+p.fondo{
+	background-color: pink;
+}
+p.letra{
+	font-size: 2em;
+}
+p[class]{
+	text-align: center;
+}
+p[class="fondo"]{
+	font-style: italic;
+}
+img[class|="borde"]{
+	border: 5px solid black;
+}
+img[src*="otoño"]{
+	height: 200px;
+}
+a[href$="org"]{
+	font-size: 5em}
+a[href^="www"]{
+	color: red;
+}
